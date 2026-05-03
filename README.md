@@ -1,20 +1,20 @@
-# 🧠 SmartRecall – AI Flashcard Forgetting Curve Engine
+#  SmartRecall – AI Flashcard Forgetting Curve Engine
 
 SmartRecall is an intelligent flashcard system that uses forgetting curve principles and spaced repetition to optimize learning efficiency and long-term memory retention.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📌 Create and manage flashcards
-- 🧠 Smart review scheduling based on performance
-- 📊 Memory strength tracking
-- 📈 Analytics dashboard (accuracy, subjects, difficulty)
-- 🔁 Adaptive spaced repetition system
+-  Create and manage flashcards
+-  Smart review scheduling based on performance
+-  Memory strength tracking
+-  Analytics dashboard (accuracy, subjects, difficulty)
+-  Adaptive spaced repetition system
 
 ---
 
-## 🧠 Core Idea
+##  Core Idea
 
 Implements the forgetting curve concept:
 
@@ -23,8 +23,19 @@ Implements the forgetting curve concept:
 - Improves retention with minimal effort
 
 ---
+## Project Structure
 
-## 🛠 Tech Stack
+smart-recall/
+│
+├── app.py # Main Streamlit app
+├── requirements.txt # Dependencies
+├── README.md # Project documentation
+├── .gitignore # Ignored files
+│
+└── data/
+└── sample_flashcards.csv # Sample dataset (structure only)
+
+##  Tech Stack
 
 - Python
 - Streamlit
@@ -33,7 +44,7 @@ Implements the forgetting curve concept:
 
 ---
 
-## ▶️ Run Locally
+##  Run Locally
 
 ```bash
 pip install -r requirements.txt
